@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Computer Builds</title>
+<!--style tag for color change -->
+<style>
+td.special {
+	color: white;
+	
+}
+</style>
+
+
+<meta charset="utf-8">
+
+<LINK href="css\highlights.css" rel="stylesheet" type="text/css">
+<LINK href="css\complete.css" rel="stylesheet" type="text/css">
+
+<!-- js -->
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+</head>
+
+<body>
+
+<body link="#666699" vlink="#808080" alink="#FF0000"> 
+
+<!-- fixed navbar integation -->
+
+<ul>
+
+<!-- Android Icon and Home Link -->
+
+   <li><a href="index.html"><img src="pics\ANDROID-RED.png" width="25" height="25" alt="android"/></a></li>
+   
+ <!-- DropDown menu's and links -->
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Computer Parts</a>
+    <div class="dropdown-content">
+	
+      <a href="pages\page2.html">Ram</a>
+    <a href="pages\page3.html">RGB Fans</a>
+    <a href="pages\page4.html">CPU Coolers</a>
+	
+	
+	<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Build Guide</a>
+    <div class="dropdown-content">
+	
+	  <a href="pages\page5.html">Getting Started</a>
+	  <a href="pages\page6.html" style="text-decoration;none">Components</a>
+    </div>
+  </li>
+</ul>
+<p> <br>
+
+</p>
+
+<!-- end of fixed nav bar -->
+
+<table width="100%" height="65" border="0">
+<tbody>
+<tr>
+<td width="0%" height="65" border="0"><p></p></td></td>
+<td class="special" width="0%" border="0"><center><strong>Computer Parts</strong></center></td>
+</tr>
+
+<tr>
+
+<tbody>
+
+
+
+
+
+<!-- end of link table -->
+</tbody>
+</table></td>
+<td colspan="2" valign="top"><table width="100%" border="1">
+<tbody>
+<tr>
+<td colspan="2"><center><img src="pics\pc1.png" height="600"></center> <br>
+</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><center><div class="wrapper">
+  <a href="pages\page2.html"><img src="pics\ram.png" alt="ram" height="200" /></a>
+</div></center></a></td>
+<td>Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat
+ dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened
+ for performance potential.</td>
+</tr>
+<tr>
+<td><center><img src="pics\x62.png" height="200"></center></td>
+<td>The all-new Kraken Series features the most advanced controls ever to be included in an all-in-one liquid cooler. Through 
+CAM’s software interface, users can fine-tune settings to ensure an optimal performance, even in the most intense gaming sessions.
+ Everything, including the pump, radiator, and the fans, have been redesigned to bring you the greatest experience in liquid cooling,
+ all backed by an industry-leading 6-year warranty.  
+Individually addressable RGB and infinite mirror design
+CAM Powered for complete software control
+Includes Aer P radiator-optimized fan
+Advanced lighting modes for a fully dynamic lighting experience
+Reinforced, extended tubing for increased durability
+Industry-leading 6-year warranty</td>
+</tr>
+<tr>
+<td><center><img src="pics\msimb.png" height="400"></td>
+<td>Supports 7th / 6th Gen Intel® Core™ processors for LGA 1151 socket<br>
+Supports DDR4-3800+(OC) Memory<br>
+DDR4 Boost with Steel Armor: Give your DDR4 memory a performance boost<br>
+Mystic Light RGB and Mystic Light Sync: 7 colors / 5 effects controlled in one click with GAMING APP or a mobile device<br>
+Twin Turbo M.2, Steel Armor, M.2 Shield.<br>
+Intel Optane Memory Ready, Turbo U.2, Lightning USB 3.1 Gen2<br>
+GAMING LAN with LAN Protect, powered by Killer™<br>
+The best online gaming experience with lowest latency and bandwidth management<br>
+Military Class 5, Guard-Pro: Latest evolution in high quality components for best protection and efficiency<br>
+MULTI-GPU: With Steel Armor PCI-E slots. Supports NVIDIA SLI™ & AMD Crossfire™<br>
+GAMING CERTIFIED: 24-hour on- and offline game and motherboard testing by eSports players</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+
+</body>
+
+</html>
