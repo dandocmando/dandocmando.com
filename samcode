@@ -1,0 +1,18 @@
+import flash.events.MouseEvent;
+
+shape.stop();
+
+pbutt.addEventListener(MouseEvent.CLICK, playButtonGo);
+sbutt.addEventListener(MouseEvent.CLICK, stopButtonGo);
+
+function playButtonGo (e:MouseEvent) {
+	shape.play();
+}
+
+function stopButtonGo (e:MouseEvent) {
+	shape.stop();
+}
+
+
+
+

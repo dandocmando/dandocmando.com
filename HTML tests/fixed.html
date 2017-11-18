@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#nav li a.arrow {background-image: (Files/Other/image.xxx) }
+
+#nav > li > a.arrow {background-image: (Files/Other/image.xxx) }
+
+#nav ,
+#nav ul {
+ list-style-type: none;
+ margin: 0;
+ list-style-image: none;
+ padding: 0
+}
+
+#nav li {
+ position: relative;
+ list-style-type: none;
+ margin: 0;
+ width: auto;
+ float: left;
+ list-style-image: none;
+ padding: 0
+}
+
+#nav li li {
+ width: auto;
+ float: none
+}
+
+#nav a {
+ border-bottom: black 1px solid;
+ text-align: left;
+ border-left: black 1px solid;
+ display: block;
+ font-family: verdana;
+ white-space: nowrap;
+ background: #8c8c8c;
+ border-top: black 1px solid;
+ border-right: black 1px solid;
+ text-decoration: none;
+ padding: 10px
+}
+
+#nav a:focus {
+ outline-style: none;
+ outline-color: invert;
+ outline-width: medium
+}
+
+#nav .no-click {cursor: default}
+
+#nav li a {margin: -1px -1px 0 0}
+
+#nav li li a {margin: 0 0 -1px}
+
+#nav > li > .arrow {padding-right: 12px}
+
+#nav ul .arrow-pad > li > a {padding-right: 11px}
+
+#nav li a.arrow ,
+#nav > li > a.arrow {
+ background-repeat: no-repeat;
+ background-position: right 50%
+}
+
+#nav li:hover > a {
+ background-color: #808080;
+ color: black
+}
+
+#nav li ul ,
+#nav li:hover ul ul ,
+#nav li:hover ul ul ul ,
+#nav li:hover ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ,
+#nav li:hover ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul {
+ z-index: 999;
+ position: absolute;
+ display: none
+}
+
+#nav li:hover ul {display: block}
+
+#nav li li:hover ul ,
+#nav li li li:hover ul ,
+#nav li li li li:hover ul ,
+#nav li li li li li:hover ul ,
+#nav li li li li li li:hover ul ,
+#nav li li li li li li li:hover ul ,
+#nav li li li li li li li li:hover ul ,
+#nav li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li li li li li li li:hover ul ,
+#nav li li li li li li li li li li li li li li li li li li li li li:hover ul {
+ display: block;
+ margin-left: 100%
+}
+
+#nav li:hover ul {margin-left: 0}
+
+#nav ul ul {
+ top: 1px;
+ left: -1px
+}
+
+#nav li {top: -1px}
+
+#nav a {font-size: 12pt}
+
+#nav a {background-color:  #808080}
+
+#nav a {border-color: transparent}
+
+#nav a {color:  #ffffff
+}
+</style>
+</head>
+<body>
+
+<center><nav id="nav">
+<ul id="navigation">
+      
+      <li><a href="home.htm" class="first">Home</a></li></ul>
+      
+        <li><a href="#">Link 2 &raquo;</a>
+            <ul>
+                <li><a href="#">Sub Link</a></li>
+                <li><a href="#">Sub Link</a></li>
+                <li><a href="#">Sub Link</a></li>
+          </ul>
+              
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        
+        <li><a href="disc.htm">Link 4 &raquo;</a>
+            <ul>
+                <li><a href="#">Sub Link</a></li>
+                <li><a href="#">Sub Link</a></li>
+                <li><a href="#">Sub Link</a></li>
+          </ul>
+          
+                <li><a href="#">Link 5</a></li>
+                  <li><a href="#">Link 6</a></li>
+          <ul>    
+        <li><a href="#">Link 6</a></li>
+        <li><a href="#" class="last">Link 7</a></li>
+    </ul>
+  </center>
